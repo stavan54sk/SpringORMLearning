@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 5.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-5.0.dtd">
+	<hibernate-mapping>
+		<class name = "com.testpackage.dto.Employee" table = "EMPLOYEE">
+		 	<id name = "eid" type = "int" column = "ID"/>
+			<property name = "efirstName" column = "FIRSTNAME" type = "string"/>
+    		<property name = "elastName" column = "LASTNAME" type = "string"/>
+      		<property name = "esalary" column = "SALARY" type = "int"/>
+		</class>
+	</hibernate-mapping>
+	
